@@ -1,6 +1,6 @@
 [project]
 name = "xmod"
-version = "1.9.0"
+version = "1.10.0"
 description = "🌱 Turn any object into a module 🌱"
 authors = [{ name = "Tom Ritchford", email = "tom@swirly.com" }]
 requires-python = ">=3.10"
@@ -27,7 +27,7 @@ dev = [
 
 [tool.poetry]
 name = "xmod"
-version = "1.9.0"
+version = "1.10.0"
 
 description = "🌱 Turn any object into a module 🌱"
 authors = ["Tom Ritchford <tom@swirly.com>"]
