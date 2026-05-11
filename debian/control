@@ -1,0 +1,27 @@
+Source: python-xmod
+Section: python
+Priority: optional
+Maintainer: Vítězslav Dvořák <info@vitexsoftware.cz>
+Build-Depends:
+ debhelper-compat (= 13),
+ dh-python,
+ pybuild-plugin-pyproject,
+ python3-all,
+ python3-hatchling,
+Standards-Version: 4.7.0
+Homepage: https://github.com/rec/xmod
+Rules-Requires-Root: no
+Vcs-Git: https://github.com/Vitexus/xmod.git
+Vcs-Browser: https://github.com/Vitexus/xmod
+
+Package: python3-xmod
+Architecture: all
+Multi-Arch: foreign
+Depends:
+ ${misc:Depends},
+ ${python3:Depends},
+Description: Turn any Python object into a module
+ xmod allows you to replace a Python module with any callable object,
+ making it possible to call a module directly as if it were a function.
+ .
+ This package provides the Python 3 library.
